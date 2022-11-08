@@ -1,0 +1,143 @@
+/*
+Autor: BirtLH
+Asignatura: LMGSI
+Unidad: UD 1
+Tarea: Tarea evaluativa 2 - Crear sitio web CV
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body {
+	background-color: #fffff1;
+	text-align: center;
+	font-family: 'Montserrat';
+}
+
+h1 {
+	text-align: center;
+	font-size: 62px;
+	letter-spacing: 10px;
+	margin-bottom:70px;
+	color: #867416;
+}
+
+h3 {
+	color: #7790ee;
+	font-size: 22px;
+	text-align: center;
+}
+
+/*
+	INDEX	
+*/
+
+/* Cajas con contenido principal */
+.caja_imagen {
+	display: block;
+	margin: 0px auto;
+	width: 20%;
+}
+
+.caja_datos {
+	margin: 0px auto;
+	width: 20%;
+}
+
+/* Imagen de perfil */
+img {
+	width: 100%;
+}
+
+/* links y listas */
+li {
+	line-height: 30px;
+}
+
+.enlaces {
+	line-height: 50px;
+	text-decoration: none;
+	color: black;
+	
+}
+/* Efecto al paasar por encima de los enlaces */
+.enlaces:hover {
+	text-decoration: solid;
+	font-size: 20px;
+}
+
+/* OTRAS PAGINAS */
+/* Enlace de volver a la Home */
+.volver {
+	display: block;
+	padding: 50px 0px 50px 0px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.volver:hover {
+	font-size: 25px;
+	text-decoration: solid;
+}
+
+/* EXPERIENCIA LABORAL Y AFICIONES */
+/* Estilos de tablas */
+table {
+	border-bottom: solid 1px black;
+	padding-bottom: 35px;
+	margin: 0 auto;
+}
+
+.descripcion {
+	width: 500px;
+}
+
+th {
+	color: #7790ee;
+	font-size: 27px;
+	border-bottom: solid 1px black;
+	padding: 0px;
+	width: 250px;}
+
+td {
+	padding-top: 35px;
+}
+
+/* párrafos dentro de la tabla */
+td p {
+	text-align: left;
+}
+
+/* imágenes dentro de la tabla */
+td img {
+	width: 200px;
+	margin: 0;
+}
+
+/* EXPERIENCIA LABORAL */
+/* Clase para resaltar texto con la etiqueta span */
+.destacar {
+	text-decoration: underline wavy;
+	color: #867416;
+}
+
+/* EXPERIENCIA ACADEMICA */
+dl {
+	line-height: 2.5rem;
+	text-align: left;
+	padding-left: 5%;
+}
+
+dt {
+	color: #7790ee;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 1.5rem;
+}
+
+
+
+
+
+	
